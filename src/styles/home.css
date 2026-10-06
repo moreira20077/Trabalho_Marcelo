@@ -1,0 +1,179 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Grande',
+    'Lucida Sans Unicode', sans-serif;
+  color: white;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: #11438F;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    #11438F,
+    #0B0626
+  );
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 10px 20px;
+  background-color: #0d0d0d;
+  gap: 20px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-left img {
+  max-height: 45px;
+}
+
+.nav-mid {
+  margin: 0 auto;
+  flex-grow: 1;
+  max-width: 600px;
+}
+
+.nav-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-right img {
+  max-height: 35px;
+}
+
+.search {
+  width: 100%;
+  border-radius: 20px;
+  padding: 8px 15px;
+  border: none;
+  color: black;
+}
+
+main {
+  width: 100%;
+}
+
+.intro {
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+}
+
+.intro h1 {
+  padding: 20px;
+}
+
+.intro h2 {
+  padding: 20px;
+}
+
+.compreAgora {
+  display: flex;
+  font-size: 25px;
+  padding: 15px;
+  background-color: #0059FF;
+  border: none;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+.compreAgora a {
+  text-decoration: none;
+}
+
+.motivo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  background-color: #06142E;
+  flex-direction: column;
+  max-width: 250px;
+  padding: 20px;
+  margin: 20px;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 12px;
+  border-style: hidden;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.9);
+}
+
+.card h2 {
+  text-align: center;
+}
+
+.motivo hr {
+  width: 100%;
+}
+
+.more-about {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#txt1,
+#txt3 {
+  font-size: 20px;
+  max-width: 40%;
+  text-align: left;
+  margin-bottom: 40px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+#txt2 {
+  font-size: 20px;
+  max-width: 40%;
+  text-align: right;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+#title-txt2 {
+  max-width: 40%;
+  text-align: right;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(28, 28, 28);
+  color: white;
+  padding: 10px;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 -8px 20px rgba(0, 0, 0, 0.7);
+  display: flex;
+}
+
+.rodape {
+  width: 100%;
+}
+
+.textoRodape {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

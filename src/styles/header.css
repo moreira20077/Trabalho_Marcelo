@@ -1,0 +1,53 @@
+.nav-bar {
+    position: relative;
+  }
+  
+  .menu-dropdown {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px;
+    background-color: #000000;
+    border-radius: 8px;
+    z-index: 1000;
+  }
+  
+  .menu-dropdown a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .menu-dropdown a:hover {
+    text-decoration: underline;
+  }
+  .menu-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .logo {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .header-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .header-link:hover,
+  .logo:hover {
+    text-decoration: underline;
+  }
