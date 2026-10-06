@@ -1,0 +1,63 @@
+main {
+    padding: 40px 60px;
+  }
+  
+  main h1 {
+    margin-bottom: 30px;
+  }
+  
+  .dados-cliente,
+  .endereco,
+  .pagamento {
+    max-width: 600px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+  }
+  
+  .dados-cliente h2,
+  .endereco h2,
+  .pagamento h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .dados-cliente input,
+  .endereco input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #000000;
+    background-color: #ffffff;
+    pointer-events: auto;
+  }
+  
+  .pagamento label {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .pagamento input {
+    margin-right: 10px;
+  }
+  
+  .btn-finalizar-pedido {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 30px;
+    border-radius: 8px;
+    background-color: #1a73e8;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .btn-finalizar-pedido:hover {
+    background-color: #1557b0;
+  }

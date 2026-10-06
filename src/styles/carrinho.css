@@ -1,0 +1,107 @@
+.carrinho {
+    padding: 40px 60px;
+  }
+  
+  .carrinho h1 {
+    margin-bottom: 30px;
+  }
+  
+  .carrinho-produto {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+  }
+  
+  .carrinho-produto img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+  }
+  
+  .carrinho-info h2 {
+    margin: 0 0 15px;
+  }
+  
+  .carrinho-info p {
+    margin: 8px 0;
+  }
+  
+  .btn-remover {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #d32f2f;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .quantidade {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .quantidade button {
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1a73e8;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .quantidade button:hover {
+    background-color: #1557b0;
+  }
+  
+  .quantidade span {
+    font-size: 18px;
+    font-weight: bold;
+    min-width: 20px;
+    text-align: center;
+  }
+  
+  .carrinho-subtotal {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .carrinho-frete {
+    margin-top: 5px;
+    color: #4caf50;
+  }
+  
+  .carrinho-total {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .btn-finalizar {
+    display: block;
+    margin-top: 20px;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1a73e8;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn-finalizar:hover {
+    background-color: #1557b0;
+  }
